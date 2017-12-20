@@ -14,6 +14,10 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\internousdev\Desktop\workspace\workspace-kudo\backup\template"/>
+			<item value="C:\Users\internousdev\Desktop\workspace\workspace-kudo\backup\Webproj5"/>
+			<item value="C:\Users\internousdev\Desktop\workspace\workspace-kudo\backup\WebProj4"/>
+			<item value="C:\Users\internousdev\Desktop\workspace\workspace-kudo\backup\ecsite"/>
 			<item value="C:\pleiades\workspace\template"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
