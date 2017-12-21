@@ -123,3 +123,7 @@
 0:0:0:0:0:0:0:1 - - [20/Dec/2017:16:26:50 +0900] "GET /ecsite_kudo/ HTTP/1.1" 200 1886
 0:0:0:0:0:0:0:1 - - [20/Dec/2017:16:26:51 +0900] "POST /ecsite_kudo/HomeAction.action HTTP/1.1" 200 2338
 0:0:0:0:0:0:0:1 - - [20/Dec/2017:16:26:59 +0900] "POST /ecsite_kudo/LoginAction.action HTTP/1.1" 200 2912
+127.0.0.1 - - [20/Dec/2017:17:06:50 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [20/Dec/2017:17:06:53 +0900] "GET /ecsite_kudo/ HTTP/1.1" 200 1826
+0:0:0:0:0:0:0:1 - - [20/Dec/2017:17:06:56 +0900] "POST /ecsite_kudo/HomeAction.action;jsessionid=FED937040D20CC493AC847C3FEC1BED2 HTTP/1.1" 200 2338
+0:0:0:0:0:0:0:1 - - [20/Dec/2017:17:07:01 +0900] "POST /ecsite_kudo/LoginAction.action HTTP/1.1" 200 2912
