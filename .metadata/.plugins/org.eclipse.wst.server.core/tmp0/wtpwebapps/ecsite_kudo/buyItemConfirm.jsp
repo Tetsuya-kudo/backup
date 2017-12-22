@@ -99,7 +99,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td><input type="button" value="戻る" onclick="submitAction('HomeAction')"/></td>
+					<td><input type="button" value="戻る" onclick="submitAction('GoBuyItemAction')"/></td>
 					<td><input type="button" value="完了" onclick="submitAction('BuyItemConfirmAction')"/></td>
 				</tr>
 			</s:form>

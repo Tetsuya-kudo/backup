@@ -41,8 +41,8 @@ delete_date datetime
 );
 
 INSERT INTO item_info_transaction(item_name, item_price, item_stock) VALUES("NoteBook", 100, 50);
-INSERT INTO item_info_transaction(item_name, item_price, item_stock) VALUES("NotePC", 10000, 10);
-INSERT INTO item_info_transaction(item_name, item_price, item_stock) VALUES("pen", 200, 100);
+INSERT INTO item_info_transaction(item_name, item_price, item_stock) VALUES("PC", 30000, 10);
+INSERT INTO item_info_transaction(item_name, item_price, item_stock) VALUES("SmartPhone", 50000, 100);
 INSERT INTO login_user_transaction(login_id, login_pass, user_name) VALUES("kudo", "111", "工藤哲弥");
 
 
