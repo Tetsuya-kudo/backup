@@ -75,28 +75,25 @@
 						<th>ID</th>
 						<th>商品名</th>
 						<th>値段</th>
+						<th>購入個数</th>
 					</tr>
-					<s:iterator value="buyItemDTOList">
+					<s:iterator value="buyItemDTOList" status="stt">
 						<tr>
 							<td><s:property value="id"/></td>
 							<td><s:property value="itemName"/></td>
 							<td><s:property value="itemPrice"/><span>円</span></td>
+							<td>
+								<select name='count<s:property value="#stt.count"/>'>
+									<option value="a7">選択してください</option>
+										<script type="text/javascript">
+											for(var i = 0; i <= 5; i++){
+												
+											}
+										</script>
+								</select>
+					</td>
 						</tr>
 					</s:iterator>
-				<tr>
-					<td>
-						<span>購入個数</span>
-					</td>
-					<td>
-						<select name="count">
-							<option value="1" selected="selected">1</option>
-							<option value="2">2</option>
-							<option value="3">3</option>
-							<option value="4">4</option>
-							<option value="5">5</option>
-						</select>
-					</td>
-				</tr>
 				<tr>
 					<td>
 						<span>支払い方法</span>
@@ -118,6 +115,10 @@
 				<p>マイぺージは<a href='<s:url action="MyPageAction" />'>こちら</a></p>
 			</div>
 		</div>
+		<!-- bodyの中に埋め込みされたJavascript -->
+        	<script type="text/javascript">
+                document.write("Javascriptの記述テストですよ。");
+        	</script>
 	</div>
 	<div id="footer">
 	 	<div id="pr">

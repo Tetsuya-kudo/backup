@@ -24,12 +24,16 @@ public class HomeAction extends ActionSupport implements SessionAware {
 			BuyItemDTO buyItemDTO = buyItemDAO.getBuyItemInfo();
 			session.put("id", buyItemDTO.getId());
 			session.put("buyItem_name", buyItemDTO.getItemName());
-			session.put("buyItem_price", buyItemDTO.getItemPrice());*/
+			session.put("buyItem_price", buyItemDTO.getItemPrice());
 
-			return result = SUCCESS;
+			result = SUCCESS;
 		}
+		return result;*/
+		return result = SUCCESS;
 
 
+
+	}
 
 	@Override
 	public void setSession(Map<String, Object> session){
